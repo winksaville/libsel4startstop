@@ -10,4 +10,4 @@ menuconfig LIB_SEL4_STARTSTOP
     bool "Build sel4 start stop library"
     default n
     help
-        "Build the library which defines seL4_Start and seL4_Stop"
+        "Build the library which defines _seL4_Start and seL4_Stop"
