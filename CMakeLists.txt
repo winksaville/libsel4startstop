@@ -11,5 +11,4 @@ target_include_directories(sel4startstop SYSTEM
     PUBLIC "include"
 )
 
-add_dependencies(sel4startstop libsel4)
-
+target_link_libraries(sel4startstop libsel4)
